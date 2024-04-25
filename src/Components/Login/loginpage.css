@@ -1,0 +1,177 @@
+
+.login-main {
+  padding: 2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(187, 41, 207, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-head {
+  font-size: 2.5rem;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.login-text {
+  font-size: 1.2rem;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.login-logo {
+  width: 35px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-container {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.continue-to-shopify,
+.login-button {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.continue-to-shopify {
+  margin-bottom: 20px;
+  background-color: #0088cc;
+  color: #ffffff;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.continue-to-shopify:hover,
+.login-button:hover {
+  background-color: #005580;
+}
+
+.email-type-ahead,
+.password {
+  margin-bottom: 20px;
+}
+
+.email-type-ahead label,
+.password label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.email-type-ahead input,
+.password input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.new-to-shopify {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.new-to-shopify a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.help-privacy-terms {
+  font-size: 14px;
+  color: #999999;
+}
+
+.help-privacy-terms a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.help-privacy-terms a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.or-divider {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.or-divider span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #666666;
+  position: relative;
+}
+
+.or-divider:before,
+.or-divider:after {
+  content: "";
+  display: block;
+  width: 44%;
+  height: 1px;
+  background-color: #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 0;
+}
+
+.or-divider:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.or-divider:after {
+  left: 60%;
+}
+
+.social-login-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  font-size: 32px;
+  margin: 0 10px;
+  color: #333333;
+  cursor: pointer;
+}
